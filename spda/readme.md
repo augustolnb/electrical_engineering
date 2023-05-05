@@ -136,25 +136,20 @@ $$ Ncl = {Lm \over D} + 1$$
 
 $$ Ncc = {Lc \over D} + 1$$
 
-
 *onde:*
 
-*Ncl -> Número de condutores na largura*
-
-*Ncc -> Número de condutores no comprimento*
-
-*L -> Largura da malha*
-
-*C -> Largura da malha*
-
-*D -> Distância*
+* Ncl -> Número de condutores na largura
+* Ncc -> Número de condutores no comprimento
+* L -> Largura da malha
+* C -> Largura da malha
+* D -> Distância
 
 Número de condutores de descida:
 
 $$ Ncd = {P \over D}$$
 
-_onde:
-_Ncd -> Número de condutores de descida
-_P -> Perímetro
-_D -> Distância
+*onde:*
+* Ncd -> Número de condutores de descida
+* P -> Perímetro
+* D -> Distância
 
