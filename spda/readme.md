@@ -89,11 +89,11 @@ Fatores independentes da Classe do SPDA
 
 ## Projeto de um SPDA
 
-1° fazer cópia do projeto
+1° fazer cópia do projeto (.dwg)
 
 2° Limpar o desenho (deixar apenas as estruturas)
 
-3° Analisar o tipo de telha e área
+3° Analisar o tipo de telha e área (__Projetar malha captora__)
 
 4° Escolher qual o tipo de proteção será utilizada (malha, franklin, usar a telha - espessura -  como captor)
 
@@ -113,13 +113,48 @@ NCD=254,6Dcd
 
 #### Projeto da Malha Captora
 
-Primeiro deve ser determinada classe de SPDA, feito o devido estudo de riscos.
+
+**conhecer área do telhado
+**criar bkp e limpar desenho [manter apenas a estrutura]
+**calcular espaçamentos e numº de condutores
+**Dividir as dimensões (comprimento e largura) pelo numº de condutores
+*Lembrar que o numº de espaçamentos é (numº de condutores - 1)
+ **Adicionar captores
+ 
+ #### Projeto da Malha de Descida
+ **Calcular condutores de descida
+ 
+ 
+Determinar a classe de SPDA, feito o devido estudo de riscos.
 Posterior a classe do SPDA, a área (S) onde será do subsistema de captação é definida.
 
 No projeto atual, serão adotadas as medidas de C = 45,3m e L = 82m
 
 O número de condutores na malha captora é calculado de acordo com as seguintes fórmulas:
 
-$$ Ncm1 = {Lm \over D} + 1$$
+$$ Ncl = {Lm \over D} + 1$$
 
-$$ Ncm2 = {Lc \over D} + 1$$
+$$ Ncc = {Lc \over D} + 1$$
+
+
+*onde:*
+
+*Ncl -> Número de condutores na largura*
+
+*Ncc -> Número de condutores no comprimento*
+
+*L -> Largura da malha*
+
+*C -> Largura da malha*
+
+*D -> Distância*
+
+Número de condutores de descida:
+
+$$ Ncd = {P \over D}$$
+
+_onde:
+_Ncd -> Número de condutores de descida
+_P -> Perímetro
+_D -> Distância
+
