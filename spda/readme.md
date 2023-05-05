@@ -103,26 +103,27 @@ Fatores independentes da Classe do SPDA
 
 7° Decidir a classe e espaçamento:
 
-⇒  Classe II
-⇒ Dimensão da malha captora S = 45,3*82
-⇒ Número de condutores da malha captora
+Classe II
+
+Dimensão da malha captora S = 45,3 * 82
+Número de condutores da malha captora
 NCM1=45,310+1=6  NCM1=8210+1=10
-⇒ Número de condutores de descida
+Número de condutores de descida
 NCD=254,6Dcd
 
 
 #### Projeto da Malha Captora
 
 
-**conhecer área do telhado
-**criar bkp e limpar desenho [manter apenas a estrutura]
-**calcular espaçamentos e numº de condutores
-**Dividir as dimensões (comprimento e largura) pelo numº de condutores
-*Lembrar que o numº de espaçamentos é (numº de condutores - 1)
- **Adicionar captores
+- **conhecer área do telhado**
+- **criar bkp e limpar desenho [manter apenas a estrutura]**
+- **calcular espaçamentos e numº de condutores**
+- **Dividir as dimensões (comprimento e largura) pelo numº de condutores**
+- *Lembrar que o numº de espaçamentos é (numº de condutores - 1)**
+ **Adicionar captores**
  
  #### Projeto da Malha de Descida
- **Calcular condutores de descida
+ **Calcular condutores de descida**
  
  
 Determinar a classe de SPDA, feito o devido estudo de riscos.
@@ -136,6 +137,12 @@ $$ Ncl = {Lm \over D} + 1$$
 
 $$ Ncc = {Lc \over D} + 1$$
 
+**Para o projeto:**
+
+$$ Ncl = {45,3 \over 10} + 1 = 6$$
+
+$$ Ncc = {82 \over 10} + 1 = 10$$
+
 *onde:*
 
 * Ncl -> Número de condutores na largura
@@ -147,6 +154,10 @@ $$ Ncc = {Lc \over D} + 1$$
 Número de condutores de descida:
 
 $$ Ncd = {P \over D}$$
+
+**Para o projeto:**
+
+$$ Ncd = {254,6 \over 10} = 17$$
 
 *onde:*
 * Ncd -> Número de condutores de descida
