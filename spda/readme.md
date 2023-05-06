@@ -157,7 +157,7 @@ $$ Ncd = {P \over D}$$
 
 **Para o projeto:**
 
-$$ Ncd = {254,6 \over 10} = 17$$
+$$ Ncd = {254,6 \over 15} = 17$$
 
 *onde:*
 * Ncd -> Número de condutores de descida
