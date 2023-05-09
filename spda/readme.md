@@ -133,9 +133,9 @@ No projeto atual, serão adotadas as medidas de C = 45,3m e L = 82m
 
 O número de condutores na malha captora é calculado de acordo com as seguintes fórmulas:
 
-$$ Ncl = {Lm \over D} + 1$$
+$$Ncl = {Lm \over D} + 1$$
 
-$$ Ncc = {Lc \over D} + 1$$
+$$Ncc = {Lc \over D} + 1$$
 
 **Para o projeto:**
 
