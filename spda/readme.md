@@ -89,7 +89,7 @@ Fatores independentes da Classe do SPDA
 
 ## Projeto de um SPDA
 
-1° fazer cópia do projeto (.dwg)
+1° Criar backup do projeto (.dwg)
 
 2° Limpar o desenho (deixar apenas as estruturas)
 
@@ -103,7 +103,7 @@ Fatores independentes da Classe do SPDA
 
 7° Decidir a classe e espaçamento:
 
-Classe II
+Classe II __Mudança de projeto -> Classe III__
 
 Dimensão da malha captora S = 45,3 * 82
 Número de condutores da malha captora
